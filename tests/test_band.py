@@ -2,7 +2,7 @@
 import pytest
 # import yaml
 
-from pythonic_garage_band.band import Band
+from pythonic_garage_band.band import Band,Guitarist,Drummer,Bassist,Musician
 
 
 def test_guitarist_str():

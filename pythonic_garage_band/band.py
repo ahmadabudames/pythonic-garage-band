@@ -87,6 +87,12 @@ class Drummer(Musician):
     def play_solo(self):
         return "rattle boom crash"
 
+if __name__ == "__main__":
+    band=Band()
+   
+    print(band.__str__())
+
+
 
 
 
